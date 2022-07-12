@@ -27,7 +27,7 @@ html{
 
 #logo img{
     height: 100px;
-    margin: 8px 12px;
+    margin: 0px 12px;
 }
 
 /* navigation bar : list styling */
@@ -127,6 +127,7 @@ html{
 /* client section */
 #client-section{
     position: relative;
+    z-index: -1;
     /* height:350px; */
 }
 
@@ -155,6 +156,7 @@ html{
 /* contact section */
 #contact{
     position: relative;
+    z-index: -1;
 }
 
 #contact::before{
